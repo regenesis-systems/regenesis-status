@@ -1,29 +1,29 @@
 {
- "generated": "2026-09-18T05:10:01.635123+00:00",
+ "generated": "2026-09-18T05:15:01.492252+00:00",
  "source": "regenesis_estate_health.py on VPS (non-invasive)",
  "systems": {
   "pod_booking": {
    "label": "Pod Booking bot",
    "status": "up",
    "detail": "systemd regenesis-pod-booking active",
-   "as_of": "2026-09-18T05:10:01.635123+00:00"
+   "as_of": "2026-09-18T05:15:01.492252+00:00"
   },
   "pod_readiness": {
    "label": "Pod pre-visit readiness",
    "status": "up",
-   "detail": "cron */10 scheduled; state written 10 min ago",
-   "as_of": "2026-09-18T05:00:03.354886+00:00"
+   "detail": "cron */10 scheduled; state written 5 min ago",
+   "as_of": "2026-09-18T05:10:02.540843+00:00"
   },
   "leads_poller": {
    "label": "Leads reconnect poller",
    "status": "up",
    "detail": "last run 5 min ago",
-   "as_of": "2026-09-18T05:05:03.279403+00:00"
+   "as_of": "2026-09-18T05:10:04.263834+00:00"
   },
   "sop_pipeline": {
    "label": "SOP single-source rebuild",
    "status": "down",
-   "detail": "no run in 70 min during business hours",
+   "detail": "no run in 75 min during business hours",
    "as_of": "2026-09-18T04:00:23.986742+00:00"
   }
  }
