@@ -1,36 +1,36 @@
 {
- "generated": "2026-10-14T02:50:01.150814+00:00",
+ "generated": "2026-10-14T02:55:01.822502+00:00",
  "source": "regenesis_estate_health.py on VPS (non-invasive)",
  "systems": {
   "pod_booking": {
    "label": "Pod Booking bot",
    "status": "up",
    "detail": "systemd regenesis-pod-booking active",
-   "as_of": "2026-10-14T02:50:01.150814+00:00"
+   "as_of": "2026-10-14T02:55:01.822502+00:00"
   },
   "pod_readiness": {
    "label": "Pod pre-visit readiness",
    "status": "up",
-   "detail": "cron */10 scheduled; state written 10 min ago",
-   "as_of": "2026-10-14T02:40:03.950373+00:00"
+   "detail": "cron */10 scheduled; state written 5 min ago",
+   "as_of": "2026-10-14T02:50:02.058589+00:00"
   },
   "leads_poller": {
    "label": "Leads reconnect poller",
    "status": "up",
    "detail": "last run 5 min ago",
-   "as_of": "2026-10-14T02:45:03.586444+00:00"
+   "as_of": "2026-10-14T02:50:03.146582+00:00"
   },
   "sop_pipeline": {
    "label": "SOP single-source rebuild",
    "status": "up",
-   "detail": "last run 19 min ago",
+   "detail": "last run 24 min ago",
    "as_of": "2026-10-14T02:30:36.220434+00:00"
   },
   "erp": {
    "label": "ERPNext",
    "status": "up",
    "detail": "website up, backups fresh",
-   "as_of": "2026-10-14T02:40:03.104379+00:00"
+   "as_of": "2026-10-14T02:50:01.733591+00:00"
   }
  }
 }
